@@ -6,7 +6,7 @@
 /*   By: heda-sil <heda-sil@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/02 08:51:37 by heda sil          #+#    #+#             */
-/*   Updated: 2022/12/16 16:49:30 by heda-sil         ###   ########.fr       */
+/*   Updated: 2024/09/07 15:03:24 by heda-sil         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,11 @@ int	main(void)
 	char	*str;
 
 	str = "helllo";
-	/*int a = printf("printf: [%c]\n", 'a');
-	printf("printf return: %d\n", a);*/
+	int a = printf("printf: [%c]\n", 'a');
+	printf("printf return: %d\n", a);
 	int b = printf("printf: [%3.2p]\n", NULL);
 	printf("printf return: %d\n", b);
-	/*int c = printf("printf: [%25p]\n", str);
+	int c = printf("printf: [%25p]\n", str);
 	printf("printf return: %d\n", c);
 	int d = printf("printf: [%25.2d]\n", 1);
 	printf("printf return: %d\n", d);
@@ -36,13 +36,13 @@ int	main(void)
 	int h = printf("printf: [%25.2X]\n", 1);
 	printf("printf return: %d\n", h);
 	int i = printf("printf: [%%]\n");
-	printf("printf return: %d\n", i);*/
+	printf("printf return: %d\n", i);
 	printf("---My printf---\n");	
-	/*int	aa = ft_printf("printf: [%c]\n", 'a');
-	printf("printf return: %d\n", aa);*/
+	int	aa = ft_printf("printf: [%c]\n", 'a');
+	printf("printf return: %d\n", aa);
 	int bb = ft_printf("printf: [%3.2p]\n", NULL);
 	printf("printf return: %d\n", bb);
-	/*int cc = ft_printf("printf: [%25p]\n", str);
+	int cc = ft_printf("printf: [%25p]\n", str);
 	printf("printf return: %d\n", cc);
 	int dd = ft_printf("printf: [%25.2d]\n", 1);
 	printf("printf return: %d\n", dd);
@@ -55,6 +55,6 @@ int	main(void)
 	int hh = ft_printf("printf: [%25.2X]\n", 1);
 	printf("printf return: %d\n", hh);
 	int	ii = ft_printf("printf: [%%]\n");
-	printf("printf return: %d\n", ii);*/
+	printf("printf return: %d\n", ii);
 	return (0);
 }

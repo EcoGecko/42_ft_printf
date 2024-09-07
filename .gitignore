@@ -1,4 +1,6 @@
 .vscode/
 c-lang-spec-2011.pdf
 obj/
+*.o
 *.a
+a.out
